@@ -20,6 +20,7 @@ return {
   -- Set colorscheme to use
   colorscheme = "astrodark",
 
+  
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
@@ -51,6 +52,14 @@ return {
     servers = {
       -- "pyright"
     },
+  },
+
+  plugins = {
+    -- ...
+    ["notify"] = function(config)
+      config.background_colour = "#000000";
+      return config
+    end,
   },
 
   -- Configure require("lazy").setup() options
