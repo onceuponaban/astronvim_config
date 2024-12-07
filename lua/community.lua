@@ -7,5 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.icon.mini-icons" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.color.transparent-nvim" },
   -- import/override with your plugins folder
 }
