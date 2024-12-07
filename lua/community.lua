@@ -5,9 +5,11 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  -- language packs
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.icon.mini-icons" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.markdown" },
+  -- Appearance
   { import = "astrocommunity.color.transparent-nvim" },
-  -- import/override with your plugins folder
+  { import = "astrocommunity.icon.mini-icons" },
 }
